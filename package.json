@@ -1,0 +1,26 @@
+{
+  "name": "roldaninhas",
+  "version": "1.0.0",
+  "description": "Roldaninhas da Indianopolis",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dagmito/Ex_Roldaninhas.git"
+  },
+  "keywords": [
+    "Dagmito"
+  ],
+  "author": "Dagmito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dagmito/Ex_Roldaninhas/issues"
+  },
+  "homepage": "https://github.com/dagmito/Ex_Roldaninhas#readme"
+}
