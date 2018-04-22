@@ -4,7 +4,7 @@ var consign = require('consign');
 var bodyParser = require('body-parser');
 var expressValidator = require('express-validator');
 
-app.use(express.static('./app/style'));
+app.use(express.static('./app/views/style'));
 app.set('view engine', 'ejs');
 app.set('views', './app/views');
 app.use(bodyParser.urlencoded({ extended: true }));
