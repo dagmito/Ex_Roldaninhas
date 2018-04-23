@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Catálogo de Roldanas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="catalogo.css" />
+</head>
+<body>
+    <table border="solid 1px">
+        <tr>
+            <th>NOME FANTASIA</th>
+            <th>DATA DE FABRICAÇÃO</th>
+            <th>COR</th>
+            <th>ALTURA</th>
+            <th>PESO</th>
+            <th>PREÇO</th>
+        </tr>
+        <% for (var index=0; index<resultsHTML.length; index++) {%>
+            <tr>
+                <td><%= resultsHTML[index].nome_fantasia%></td>
+                <td><%= resultsHTML[index].dt_fab%></td>
+                <td><%= resultsHTML[index].cor%></td>
+                <td><%= resultsHTML[index].altura%> m</td>
+                <td><%= resultsHTML[index].peso%> kg</td>
+                <td>R$ <%= resultsHTML[index].preco%>,00</td>
+            </tr>
+        <%}%>
+    </table>
+    <button><a href="cadastro.ejs">Cadastrar Roldana</a><button/>
+</body>
+</html>
